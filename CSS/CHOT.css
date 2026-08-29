@@ -1,0 +1,20 @@
+.ltbutton {
+  margin: 2dvw 0px;
+  width: 15dvw;
+  box-sizing: border-box;
+}
+html.dark-mode button {
+  background-color: #151515;
+  color: rgb(59, 255, 62);
+  border: 2px solid rgb(7, 69, 28);
+}
+.sidebar {
+  flex: 1;
+  border-left: 2px solid #ddd;
+  padding: 0px 7px;
+}
+html.dark-mode .sidebar {
+  flex: 1;
+
+  padding: 0px 7px;
+}
