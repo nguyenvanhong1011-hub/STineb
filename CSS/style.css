@@ -56,3 +56,74 @@ a:hover {
 .wid10 {
   width: 10%;
 }
+footer {
+    background-color: #07111f;
+    color: #a7abb3;
+    padding: 50px 6%;
+    border: 1px solid #555;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 150px;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo span {
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.footer-logo b {
+    width: 32px;
+    height: 44px;
+    background-color: #00d26a;
+    margin-left: 8px;
+}
+
+.footer-top > p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+}
+
+.footer-right {
+    margin-left: auto;
+    text-align: right;
+}
+
+.social {
+    margin-bottom: 30px;
+}
+
+.social a {
+    display: inline-block;
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+.footer-links a {
+    color: #a7abb3;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.footer-links a:hover,
+.social a:hover {
+    color: #00d26a;
+}
